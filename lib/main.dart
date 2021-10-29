@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_walle_plugin/flutter_walle_plugin.dart';
 
+import 'DynamicPage1.dart';
+import 'DynamicPage2.dart';
+import 'DynamicPage3.dart';
+import 'DynamicPage4.dart';
 import 'myappbar.dart';
 
 void main() {
@@ -14,21 +18,48 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: Colors.blue,
-        // This makes the visual density adapt to the platform that you run
-        // the app on. For desktop platforms, the controls will be smaller and
-        // closer together (more dense) than on mobile platforms.
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+          // This is the theme of your application.
+          //
+          // Try running your application with "flutter run". You'll see the
+          // application has a blue toolbar. Then, without quitting the app, try
+          // changing the primarySwatch below to Colors.green and then invoke
+          // "hot reload" (press "r" in the console where you ran "flutter run",
+          // or simply save your changes to "hot reload" in a Flutter IDE).
+          // Notice that the counter didn't reset back to zero; the application
+          // is not restarted.
+          primarySwatch: Colors.blue,
+          accentColor: Colors.blue[600],
+          // This makes the visual density adapt to the platform that you run
+          // the app on. For desktop platforms, the controls will be smaller and
+          // closer together (more dense) than on mobile platforms.
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          //全局主题色与字体
+          textTheme: TextTheme(
+              headline1: TextStyle(
+                  fontSize: 36.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+              headline2: TextStyle(
+                  fontSize: 32.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+              headline3: TextStyle(
+                  fontSize: 28.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+              headline4: TextStyle(
+                  fontSize: 24.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+              headline5: TextStyle(
+                  fontSize: 14.0,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+              bodyText1: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.w200,
+              )),
+          fontFamily: 'Georgia'),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
@@ -54,6 +85,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  int _index = 0;
   String _platformVersion = 'Unknown';
 
   final List<String> _tabValues = ['a', 'b', 'c', 'd'];
@@ -220,27 +252,27 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Positioned(
                 child: Container(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: List.generate(_tabValues.length, (index) {
-                      return Container(
-                        margin: EdgeInsets.symmetric(horizontal: 5),
-                        width: 8,
-                        height: 8,
-                        decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: _counter == index ? Colors.blue : Colors.grey),
-                      );
-                    }).toList(),
-                  ),
-                ))
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: List.generate(_tabValues.length, (index) {
+                  return Container(
+                    margin: EdgeInsets.symmetric(horizontal: 5),
+                    width: 8,
+                    height: 8,
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: _counter == index ? Colors.blue : Colors.grey),
+                  );
+                }).toList(),
+              ),
+            ))
           ],
         ),
       ),
     );
   }
 
-  _initContainer(){
+  _initContainer() {
     return Center(
       child: Container(
         width: 300,
@@ -260,6 +292,62 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
+  List<Widget> _homeWidgets = [
+    DynamicPage1(),
+    DynamicPage2(),
+    DynamicPage3(),
+    DynamicPage4()
+  ];
+
+  void _onBottomNavigationBarTapped(index) {
+    setState(() {
+      _index = index;
+    });
+  }
+
+  _bottomNavigationBar() {
+    return BottomNavigationBar(
+      type: BottomNavigationBarType.fixed,
+      currentIndex: _index,
+      onTap: _onBottomNavigationBarTapped,
+      selectedItemColor: Theme.of(context).primaryColor,
+      items: [
+        _getBottomNavigationItem(
+            '主页', 'images/tab_station.png', 'images/tab_station_select.png', 0),
+        _getBottomNavigationItem(
+            '消息', 'images/tab_station.png', 'images/tab_station_select.png', 1),
+        _getBottomNavigationItem(
+            '浏览', 'images/tab_station.png', 'images/tab_station_select.png', 2),
+        _getBottomNavigationItem(
+            '我的', 'images/tab_station.png', 'images/tab_station_select.png', 3),
+      ],
+    );
+  }
+
+  _getBottomNavigationItem(
+      String title, String normalIcon, String pressedIcon, int index) {
+    return BottomNavigationBarItem(
+        icon: _index == index
+            ? Image.asset(
+                pressedIcon,
+                width: 32,
+                height: 32,
+              )
+            : Image.asset(
+                normalIcon,
+                width: 32,
+                height: 28,
+              ),
+        label: title);
+  }
+
+  _indexedStack() {
+    return IndexedStack(
+      index: _index,
+      children: _homeWidgets,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -270,7 +358,8 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return Scaffold(
       appBar: MyAppBar(),
-      body: _initContainer(),
+      body: _indexedStack(),
+      bottomNavigationBar: _bottomNavigationBar(),
       floatingActionButton:
           _FloatWidget(), // This trailing comma makes auto-formatting nicer for build methods.
     );
@@ -283,5 +372,4 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Icon(Icons.add),
     );
   }
-
 }
