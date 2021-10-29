@@ -95,30 +95,6 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  @override
-  Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: MyAppBar(),
-      body: _stackWidget(),
-      floatingActionButton:
-          _FloatWidget(), // This trailing comma makes auto-formatting nicer for build methods.
-    );
-  }
-
-  _FloatWidget() {
-    return FloatingActionButton(
-      onPressed: _incrementCounter,
-      tooltip: 'Increment',
-      child: Icon(Icons.add),
-    );
-  }
-
   _centerWidget() {
     return Center(
       // Center is a layout widget. It takes a single child and positions it
@@ -244,23 +220,68 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Positioned(
                 child: Container(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: List.generate(_tabValues.length, (index) {
-                  return Container(
-                    margin: EdgeInsets.symmetric(horizontal: 5),
-                    width: 8,
-                    height: 8,
-                    decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: _counter == index ? Colors.blue : Colors.grey),
-                  );
-                }).toList(),
-              ),
-            ))
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: List.generate(_tabValues.length, (index) {
+                      return Container(
+                        margin: EdgeInsets.symmetric(horizontal: 5),
+                        width: 8,
+                        height: 8,
+                        decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: _counter == index ? Colors.blue : Colors.grey),
+                      );
+                    }).toList(),
+                  ),
+                ))
           ],
         ),
       ),
     );
   }
+
+  _initContainer(){
+    return Center(
+      child: Container(
+        width: 300,
+        height: 300,
+        color: Colors.blue,
+        child: Container(
+          color: Colors.red,
+          margin: EdgeInsets.fromLTRB(10, 0, 20, 30),
+          child: Container(
+            margin: EdgeInsets.fromLTRB(10, 10, 10, 10),
+            color: Colors.white60,
+            child: Text('我是文本  长文本啊 '),
+            padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
+          ),
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // This method is rerun every time setState is called, for instance as done
+    // by the _incrementCounter method above.
+    //
+    // The Flutter framework has been optimized to make rerunning build methods
+    // fast, so that you can just rebuild anything that needs updating rather
+    // than having to individually change instances of widgets.
+    return Scaffold(
+      appBar: MyAppBar(),
+      body: _initContainer(),
+      floatingActionButton:
+          _FloatWidget(), // This trailing comma makes auto-formatting nicer for build methods.
+    );
+  }
+
+  _FloatWidget() {
+    return FloatingActionButton(
+      onPressed: _incrementCounter,
+      tooltip: 'Increment',
+      child: Icon(Icons.add),
+    );
+  }
+
 }
