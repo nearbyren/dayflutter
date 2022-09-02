@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T03:55:01.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OtdsS76CMsLPgB-qZshh" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T03:57:01.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Fagexqw1_IiiQP8mtdrP" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2377" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
             <mxPoint x="450" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="内容以&lt;br&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;优惠活动&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;判断内容是否以&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;优惠活动&lt;br&gt;&lt;br&gt;开头&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="530" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
@@ -38,7 +38,7 @@
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-4" value="&lt;div style=&quot;text-align: left;&quot;&gt;&amp;lt;tdata&amp;gt;pw:123456;sn:0000000000000000;id:0100000281189378;ap:1;at:02;se:0;lp:1;pr:1;&amp;lt;/tdata&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;lt;tprint&amp;gt;&amp;lt;p&amp;gt;0101024流水号：1000000125737197&amp;lt;p&amp;gt;2001126&amp;nbsp; 易加油专用小票----员工联&amp;lt;p&amp;gt;2001125时间：2022-09-01 17:25:35&amp;lt;p&amp;gt;0303116油站：福兴加油站&amp;lt;p&amp;gt;0303132单价：原价9.16元（优惠价8.86元）&amp;lt;p&amp;gt;0303112油量：0.11升&amp;lt;p&amp;gt;0358112实收：0.97元&amp;lt;p&amp;gt;0303109油枪：4号&amp;lt;p&amp;gt;0303114油品：95号汽油&amp;lt;p&amp;gt;0303117手机：151****3424&amp;lt;p&amp;gt;0303212合计：1.00元&amp;lt;/tprint&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-130" y="-190" width="560" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-5" value="内容以&lt;br&gt;&lt;font face=&quot;Courier New, monospace&quot; color=&quot;#008000&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(200, 235, 202);&quot;&gt;&lt;b&gt;##&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="bQDX-uMfjQgSmkw6_x5k-5" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;判断内容是否以&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font face=&quot;Courier New, monospace&quot; color=&quot;#008000&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(200, 235, 202);&quot;&gt;&lt;b&gt;##&lt;br&gt;&lt;br&gt;开头&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="530" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-5" target="WIyWlLk6GJQsqaUBKTNV-10">
