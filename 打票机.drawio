@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:25:06.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6oxRROEs7qWiy7FyUzt2" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:25:21.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="10JzipNUiKj9GAjfWgSn" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2119" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-103" value="易加油提醒你，xx号枪支付xx元，优惠xx元" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-106" value="&lt;br&gt;&lt;br&gt;判断接收内容&lt;br&gt;是否为&lt;br&gt;&lt;br&gt;&lt;font face=&quot;Courier New, monospace&quot; color=&quot;#008000&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(200, 235, 202);&quot;&gt;&lt;b&gt;君达石化弘邦加油站&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="bQDX-uMfjQgSmkw6_x5k-106" value="&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;判断接收内容&lt;br&gt;是否为&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Courier New, monospace&quot; color=&quot;#008000&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(200, 235, 202);&quot;&gt;&lt;b&gt;君达石化弘邦加油站&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1150" y="710" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-107" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-106" target="bQDX-uMfjQgSmkw6_x5k-29">
@@ -288,7 +288,7 @@
           <mxGeometry x="1343" y="902.5" width="210" height="135" as="geometry" />
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-117" value="临时解决方案&lt;br&gt;新添加适配" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1440" y="550" width="120" height="80" as="geometry" />
+          <mxGeometry x="1420" y="565" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-121" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-106" target="bQDX-uMfjQgSmkw6_x5k-117">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
