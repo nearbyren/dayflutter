@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:23:11.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gpZYAvhCQ_H3kVjipfdv" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:24:16.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kFDXFcLwJPiAU7AqpojH" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1713" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1896" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -286,6 +286,15 @@
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-115" value="播报模板2：&lt;br&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;易加油提醒你，&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;号枪支付&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;元&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1343" y="902.5" width="210" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="bQDX-uMfjQgSmkw6_x5k-117" value="临时解决方案&lt;br&gt;新添加适配" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1440" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bQDX-uMfjQgSmkw6_x5k-121" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-106" target="bQDX-uMfjQgSmkw6_x5k-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1370" y="660" as="sourcePoint" />
+            <mxPoint x="1420" y="610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
