@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T03:23:53.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MdRhITw59Ky1fR_7Lznz" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T03:26:40.449Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Ne7SoDz9LVk4dWeCsE6t" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1766" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3212" dy="2437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -251,7 +251,7 @@
         <mxCell id="dKve_HhihdxJhTnQ7sWN-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="990" y="665" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dKve_HhihdxJhTnQ7sWN-12" value="语音模板是否是&lt;br&gt;优惠语音模板" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-12" value="判断语音模板内容是否为" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="960" y="770" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dKve_HhihdxJhTnQ7sWN-14" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Garamond;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dKve_HhihdxJhTnQ7sWN-4" target="dKve_HhihdxJhTnQ7sWN-15">
@@ -295,6 +295,9 @@
         </mxCell>
         <mxCell id="dKve_HhihdxJhTnQ7sWN-26" value="直播播报语音&lt;br&gt;1.易加油提醒你,xx号枪支付xx元" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1225" y="925" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-27" value="&lt;span style=&quot;&quot;&gt;易加油提醒你,xx号枪支付xx元,优惠xx元&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="890" y="850" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
