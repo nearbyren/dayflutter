@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T01:21:33.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="x6IRFGBv5jToCT9wel3m" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T03:23:02.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DC2EOcF4idtYgPBldVJB" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2377" dy="1993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1766" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -80,20 +80,11 @@
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-19" value="匹配语音模板是否包含 xx" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="950" y="530" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-19" target="bQDX-uMfjQgSmkw6_x5k-68" edge="1">
+        <mxCell id="bQDX-uMfjQgSmkw6_x5k-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-19" target="dKve_HhihdxJhTnQ7sWN-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="740" as="sourcePoint" />
-            <mxPoint x="1000" y="680" as="targetPoint" />
+            <mxPoint x="1000.0000000000005" y="760" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-21" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1010" y="630" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-27" value="播报模板1：&lt;br&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;易加油提醒你，&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;号枪支付&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;元，&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;优惠&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;元&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1090" y="1080" width="210" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-29" value="播报模板2：&lt;br&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;易加油提醒你，&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;号枪支付&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;元&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1330" y="690" width="210" height="135" as="geometry" />
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-19" target="bQDX-uMfjQgSmkw6_x5k-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -131,17 +122,11 @@
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-59" value="匹配语音模板是否包含 xx" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="950" y="530" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-61" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;根据接收内容&lt;/font&gt;&lt;br style=&quot;&quot;&gt;&lt;font size=&quot;1&quot;&gt;判断是否为&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Courier New, monospace&quot; color=&quot;#008000&quot;&gt;&lt;b style=&quot;&quot;&gt;是否为柜台联&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1150" y="930" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-63" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="730" y="730" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-65" value="匹配语音模板是否包含 xx" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="950" y="530" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-68" value="处理内容&lt;br&gt;&lt;br&gt;生成两条语音&lt;br&gt;&lt;br&gt;播报模板" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="925" y="675" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.458;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="bQDX-uMfjQgSmkw6_x5k-72" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -224,12 +209,6 @@
             <mxPoint x="727" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-99" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-68" target="bQDX-uMfjQgSmkw6_x5k-106" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1020" y="720" as="sourcePoint" />
-            <mxPoint x="1150" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-100" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-89" target="bQDX-uMfjQgSmkw6_x5k-101" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-210" y="230" as="sourcePoint" />
@@ -245,56 +224,68 @@
         <mxCell id="bQDX-uMfjQgSmkw6_x5k-103" value="易加油提醒你，xx号枪支付xx元，优惠xx元" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="640" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-106" value="&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;判断接收内容&lt;br&gt;是否为&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Courier New, monospace&quot; color=&quot;#008000&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(200, 235, 202);&quot;&gt;&lt;b&gt;君达石化弘邦加油站&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1150" y="710" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-107" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-106" target="bQDX-uMfjQgSmkw6_x5k-29" edge="1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-2" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Garamond;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dKve_HhihdxJhTnQ7sWN-12" target="dKve_HhihdxJhTnQ7sWN-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="910" as="sourcePoint" />
-            <mxPoint x="1320" y="750" as="targetPoint" />
+            <mxPoint x="1000.0000000000005" y="895" as="sourcePoint" />
+            <mxPoint x="1000" y="990" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-108" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1260" y="720" width="40" height="30" as="geometry" />
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-3" value="Yes&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="895" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-109" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-106" edge="1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-4" value="生成两条语音模板:&lt;br&gt;1.易加油提醒你,xx号枪支付xx元&lt;br&gt;2.易加油提醒你,xx号枪支付xx元,优惠xx元" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="860" y="960" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-5" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Garamond;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dKve_HhihdxJhTnQ7sWN-12" target="dKve_HhihdxJhTnQ7sWN-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1320" y="860" as="sourcePoint" />
-            <mxPoint x="1190" y="930" as="targetPoint" />
+            <mxPoint x="1161.5" y="827.5" as="sourcePoint" />
+            <mxPoint x="1280" y="828" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-110" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1190" y="835" width="40" height="30" as="geometry" />
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-6" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1070" y="810" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-111" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-61" target="bQDX-uMfjQgSmkw6_x5k-115" edge="1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-7" value="生成一条语音模板:&lt;br&gt;1.易加油提醒你,xx号枪支付xx元" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="780" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="665" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-12" value="语音模板是否是&lt;br&gt;优惠语音模板" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-14" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Garamond;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dKve_HhihdxJhTnQ7sWN-4" target="dKve_HhihdxJhTnQ7sWN-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1250" y="1020" as="sourcePoint" />
-            <mxPoint x="1320" y="970" as="targetPoint" />
+            <mxPoint x="1020" y="1110" as="sourcePoint" />
+            <mxPoint x="1000" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-112" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1260" y="945" width="40" height="30" as="geometry" />
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-15" value="判断是否&lt;br&gt;为柜台联" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="1130" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-113" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-61" target="bQDX-uMfjQgSmkw6_x5k-27" edge="1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-16" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Garamond;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dKve_HhihdxJhTnQ7sWN-15" target="dKve_HhihdxJhTnQ7sWN-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1170" y="1110" as="sourcePoint" />
-            <mxPoint x="1190" y="1090" as="targetPoint" />
+            <mxPoint x="1160" y="1190" as="sourcePoint" />
+            <mxPoint x="1120" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-114" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1180" y="1025" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-115" value="播报模板2：&lt;br&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;易加油提醒你，&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(200, 235, 202); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;号枪支付&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;font-family:&#39;JetBrains Mono&#39;,monospace;&quot;&gt;xx&lt;/span&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;元&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1343" y="902.5" width="210" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-117" value="临时解决方案&lt;br&gt;新添加适配" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1420" y="565" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bQDX-uMfjQgSmkw6_x5k-121" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bQDX-uMfjQgSmkw6_x5k-106" target="bQDX-uMfjQgSmkw6_x5k-117" edge="1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-17" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Garamond;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dKve_HhihdxJhTnQ7sWN-15" target="dKve_HhihdxJhTnQ7sWN-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1370" y="660" as="sourcePoint" />
-            <mxPoint x="1420" y="610" as="targetPoint" />
+            <mxPoint x="960" y="1280" as="sourcePoint" />
+            <mxPoint x="1000" y="1290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-18" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="1145" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-19" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="1225" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-23" value="播报语音&lt;br&gt;1.易加油提醒你,xx号枪支付xx元" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1140" y="1145" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-24" value="播报语音&lt;br&gt;2.易加油提醒你,xx号枪支付xx元,优惠xx元" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="1300" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
