@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T03:30:20.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="M-ltDUnIkCOHMP-1uzRn" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T03:31:59.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fZvz_vNuZqnBx8r4qJhm" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1975" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -233,7 +233,7 @@
         <mxCell id="dKve_HhihdxJhTnQ7sWN-3" value="Yes&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="990" y="895" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dKve_HhihdxJhTnQ7sWN-4" value="将接收内容拆分&lt;br&gt;生成两条语音模板:&lt;br&gt;1.易加油提醒你,xx号枪支付xx元&lt;br&gt;2.易加油提醒你,xx号枪支付xx元,优惠xx元" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-4" value="将接收内容&amp;nbsp; 油枪 总金额&amp;nbsp; 支付金额 拆分出来&lt;br&gt;生成两条语音模板:&lt;br&gt;1.易加油提醒你,xx号枪支付xx元&lt;br&gt;2.易加油提醒你,xx号枪支付xx元,优惠xx元" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="860" y="960" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dKve_HhihdxJhTnQ7sWN-5" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Garamond;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="dKve_HhihdxJhTnQ7sWN-12" target="dKve_HhihdxJhTnQ7sWN-7">
@@ -245,7 +245,7 @@
         <mxCell id="dKve_HhihdxJhTnQ7sWN-6" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1070" y="810" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dKve_HhihdxJhTnQ7sWN-7" value="将接收内容拆分&lt;br&gt;生成一条语音模板:&lt;br&gt;1.易加油提醒你,xx号枪支付xx元" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="dKve_HhihdxJhTnQ7sWN-7" value="将接收内容&amp;nbsp; 油枪 支付金额 拆分出来&lt;br&gt;生成一条语音模板:&lt;br&gt;1.易加油提醒你,xx号枪支付xx元" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1220" y="780" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dKve_HhihdxJhTnQ7sWN-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Garamond;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
